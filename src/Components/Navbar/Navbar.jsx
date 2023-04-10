@@ -10,7 +10,7 @@ const Navbar = () => {
         <Link to="statistics">Statistics</Link>
         <Link to="job">Applied Jobs</Link>
         <Link to="blog">Blog</Link>
-        <button>Start Applying</button>
+        <button className="btn-primary">Start Applying</button>
       </div>
     </div>
   );
