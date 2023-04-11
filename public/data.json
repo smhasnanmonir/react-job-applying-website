@@ -47,6 +47,7 @@
   {
     "_id": 6,
     "company_name": "Tesla",
+    "logo": "https://i.ibb.co/CvmK1VV/tesla-9-1.png",
     "position": "Algaritham",
     "salary": "$230K",
     "jobType1": "Full Time",
