@@ -42,6 +42,9 @@ const Statistics = () => {
   ];
   return (
     <div className="mt-12 grid place-items-center">
+      <div className="mb-12">
+        <h1 className="text-2xl font-bold">My assignment chart</h1>
+      </div>
       <ResponsiveContainer width="75%" aspect={3}>
         <AreaChart
           width={500}
