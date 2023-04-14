@@ -1,9 +1,22 @@
 import React from "react";
+import { useLoaderData } from "react-router-dom";
+import { getStoredCart } from "../../Utils/fakeDB";
+import CartJobShow from "../CartJobShow/CartJobShow";
 
 const Jobs = () => {
+  const { initialCart } = useLoaderData();
+
+  console.log(initialCart);
   return (
-    <div className="mx-auto w-1/2 text-center p-11">
-      <p>This is Job section</p>
+    <div className="flex min-h-screen justify-start">
+      <div className="flex flex-col max-w-3xl p-6 space-y-3">
+        <h2>{initialCart.length ? "Added Jobs" : "No job is added"}</h2>
+        <ul>
+          {initialCart.map((job) => (
+            <CartJobShow key={job.id} job={job}></CartJobShow>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 };
