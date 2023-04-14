@@ -1,9 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { json, useLoaderData, useParams } from "react-router-dom";
+import { addToDb } from "../../Utils/fakeDB";
 
 const JobShowMore = () => {
   const jobApply = useLoaderData();
-  console.log(jobApply);
+  const handleApply = (id) => {
+    console.log(id);
+    addToDb(id);
+  };
   const {
     id,
     company_name,
@@ -43,6 +47,9 @@ const JobShowMore = () => {
         <p className="mt-1">
           Job Type: {jobType1} & {jobType2}
         </p>
+        <button onClick={() => handleApply(id)} className="my-btn">
+          Apply
+        </button>
       </div>
     </div>
   );
