@@ -1,56 +1,74 @@
 [
   {
-    "_id": 1,
+    "id": 1,
     "company_name": "Google",
     "logo": "https://i.ibb.co/K0gRYRC/google-1-1-1.png",
     "position": "Software engineer",
     "salary": "$120K",
     "jobType1": "Full Time",
-    "jobType2": "Remote"
+    "jobType2": "Remote",
+    "requirements": "Bachelor in CSE",
+    "description": "A software developer is responsible for designing, developing, testing, and maintaining software systems. They work with a team of developers, project managers, and other stakeholders to understand requirements, write code, and develop software applications that meet the needs of the organization or customer.",
+    "benefits": "Software developers are highly skilled professionals who play a critical role in the development and maintenance of software applications. They are in high demand due to the increasing reliance on technology in many industries, which requires companies to have talented and experienced software developers on staff. The benefits of being a software developer include excellent job prospects, competitive salaries, and opportunities for career advancement. Additionally, software developers often have the ability to work remotely or have flexible schedules, allowing them to achieve a healthy work-life balance. They also have the satisfaction of knowing that they are creating innovative tools and applications that can improve people's lives and transform businesses. Lastly, software development is an intellectually stimulating field that constantly challenges developers to learn and grow their skills, making it an ideal career choice for those who enjoy solving complex problems and staying up-to-date with emerging technologies."
   },
   {
-    "_id": 2,
+    "id": 2,
     "company_name": "Tesla",
     "logo": "https://i.ibb.co/CvmK1VV/tesla-9-1.png",
     "position": "Software engineer",
     "salary": "$150K",
     "jobType1": "Full Time",
-    "jobType2": "Onsite"
+    "jobType2": "Onsite",
+    "requirements": "Bachelor in CSE",
+    "description": "A software developer is responsible for designing, developing, testing, and maintaining software systems. They work with a team of developers, project managers, and other stakeholders to understand requirements, write code, and develop software applications that meet the needs of the organization or customer.",
+    "benefits": "Software developers are highly skilled professionals who play a critical role in the development and maintenance of software applications. They are in high demand due to the increasing reliance on technology in many industries, which requires companies to have talented and experienced software developers on staff. The benefits of being a software developer include excellent job prospects, competitive salaries, and opportunities for career advancement. Additionally, software developers often have the ability to work remotely or have flexible schedules, allowing them to achieve a healthy work-life balance. They also have the satisfaction of knowing that they are creating innovative tools and applications that can improve people's lives and transform businesses. Lastly, software development is an intellectually stimulating field that constantly challenges developers to learn and grow their skills, making it an ideal career choice for those who enjoy solving complex problems and staying up-to-date with emerging technologies."
   },
   {
-    "_id": 3,
+    "id": 3,
     "company_name": "Google",
     "logo": "https://i.ibb.co/K0gRYRC/google-1-1-1.png",
     "position": "Product Manager",
     "salary": "$180K",
     "jobType1": "Full Time",
-    "jobType2": "Onsite"
+    "jobType2": "Onsite",
+    "requirements": "Bachelor in BBA or any Engineering",
+    "description": "A product manager is a professional responsible for overseeing the development and success of a company's products. They work closely with cross-functional teams, including engineers, designers, marketers, and salespeople, to ensure that products meet customer needs and are delivered on time and within budget. Product managers are involved in every stage of the product lifecycle, from ideation and research to launch and post-launch analysis. They must have a deep understanding of their target market and competitive landscape, as well as strong communication and project management skills. Ultimately, the success of a product manager is measured by the performance of their products in the marketplace.",
+    "benefits": "Product managers are highly valued professionals in the tech industry, playing a vital role in driving business success by overseeing the development of innovative and successful products. Some of the benefits of being a product manager include the opportunity to work on exciting and challenging projects, as well as the potential for high earning potential and career advancement. Product managers work closely with cross-functional teams, including engineers, designers, marketers, and salespeople, which allows them to develop a broad range of skills and expertise. They also have a deep understanding of their target market and competitive landscape, which can lead to opportunities for strategic thinking and decision-making. Furthermore, product managers have the satisfaction of knowing that they are making a tangible impact on the success of their company through the successful launch and performance of their products. Overall, a career as a product manager offers a unique blend of creativity, strategy, and problem-solving, making it an attractive option for those looking for a challenging and rewarding career path."
   },
   {
-    "_id": 4,
+    "id": 4,
     "company_name": "Netflix",
     "logo": "https://i.ibb.co/FzRQYVs/netflix-4-1.png",
     "position": "Data Science",
     "salary": "$210K",
     "jobType1": "Full Time",
-    "jobType2": "Remote"
+    "jobType2": "Remote",
+    "requirements": "Bachelor in CSE",
+    "description": "A data scientist is a professional who uses advanced analytical and statistical techniques to extract insights from large, complex datasets. They work with structured and unstructured data from a variety of sources such as transactional databases, social media, and internet searches to identify patterns, trends, and correlations that can inform business decisions. Data scientists are typically skilled in programming languages such as Python or R and have expertise in machine learning, deep learning, and artificial intelligence algorithms. They also possess strong quantitative skills, including statistics, linear algebra, and calculus, as well as exceptional problem-solving abilities. The work of a data scientist involves designing experiments, building predictive models, creating data visualizations, and communicating their findings to stakeholders in an understandable way. The insights provided by data scientists help organizations improve customer experiences, optimize operations, and drive growth strategies.",
+    "benefits": "Information technology (IT) has revolutionized the way we live, work, and communicate. Some of the benefits of IT include increased efficiency and productivity, improved communication, enhanced security, and better access to information. IT has made it possible for people to work remotely or from anywhere in the world, allowing for greater flexibility and work-life balance. With the advent of cloud computing and other technologies, organizations can now store and process vast amounts of data, leading to better decision-making and customer experiences. IT has also enabled new business models and opportunities, such as e-commerce and online education. Additionally, IT has improved healthcare outcomes by facilitating the exchange of medical information and enabling telemedicine. Overall, IT has transformed virtually every aspect of modern life, providing numerous benefits that have greatly improved our quality of life and standard of living."
   },
   {
-    "_id": 5,
+    "id": 5,
     "company_name": "Netflix",
     "logo": "https://i.ibb.co/FzRQYVs/netflix-4-1.png",
     "position": "Content Maker",
     "salary": "$90K",
     "jobType1": "Full Time",
-    "jobType2": "Onsite"
+    "jobType2": "Onsite",
+    "requirements": "Bachelor in Film and Arts",
+    "description": "A content maker is a creative professional who is responsible for developing and producing various types of digital media content, including text, images, audio, and video. They work collaboratively with other members of the marketing and communications team to develop content that is aligned with the organization's goals and objectives. Content makers use their skills in writing, editing, design, and multimedia production to create engaging and informative content that resonates with the target audience. They must be knowledgeable about current trends in digital media, as well as understand best practices for search engine optimization (SEO) and social media sharing. The ultimate goal of a content maker is to create content that attracts and engages customers, ultimately driving sales and brand loyalty.",
+    "benefits": "A content manager is a professional responsible for overseeing the creation, management, and distribution of digital media content. Some of the benefits of being a content manager include the opportunity to work on creative projects that make an impact, increased job security, and potential for career advancement. Content managers are instrumental in building brand awareness and creating a loyal customer base through engaging and informative content. They also have the opportunity to work with cross-functional teams, including marketing, design, and development, which allows them to develop a broad range of skills and expertise. Additionally, content managers have the flexibility to work remotely or on a flexible schedule while continuously learning and developing their skills in a dynamic and fast-paced industry."
   },
   {
-    "_id": 6,
+    "id": 6,
     "company_name": "Tesla",
     "logo": "https://i.ibb.co/CvmK1VV/tesla-9-1.png",
-    "position": "Algaritham",
+    "position": "Algorithm",
     "salary": "$230K",
     "jobType1": "Full Time",
-    "jobType2": "Onsite"
+    "jobType2": "Onsite",
+    "requirements": "Bachelor in CSE",
+    "description": "An algorithm is a set of step-by-step instructions used to solve a problem or perform a specific task. In computer science, algorithms are used to develop software programs and applications, and they are typically expressed in a programming language. They can be used for a wide range of tasks, from simple calculations to complex data analysis and machine learning.",
+    "benefits": "An algorithm is a set of step-by-step instructions used to solve a problem or perform a specific task. In computer science, algorithms are used to develop software programs and applications, and they are typically expressed in a programming language. They can be used for a wide range of tasks, from simple calculations to complex data analysis and machine learning."
   }
 ]

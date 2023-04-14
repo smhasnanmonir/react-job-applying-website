@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 
 const JobCat = () => {
   return (
-    <div className="grid place-items-center mt-10 mb-[45px]">
+    <div className="grid place-items-center mt-10 mb-[45px] text-left">
       <h1 className="text-2xl font-extrabold mb-4">Job Category List</h1>
       <p>
         Explore thousands of job opportunities with all the information you
