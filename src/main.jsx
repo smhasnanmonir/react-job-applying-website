@@ -9,7 +9,8 @@ import Blogs from "./Components/Blogs/Blogs";
 import Jobs from "./Components/Jobs/Jobs";
 import Statistics from "./Components/Statistics/Statistics";
 import JobShowMore from "./Components/JobShowMore/JobShowMore";
-
+import { getStoredCart } from "./Utils/fakeDB";
+import { loadJobInfo } from "./loader/loadJobInfo";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -31,6 +32,7 @@ const router = createBrowserRouter([
       {
         path: "job",
         element: <Jobs></Jobs>,
+        loader: loadJobInfo,
       },
       {
         path: "jobDetails/:jobID",
