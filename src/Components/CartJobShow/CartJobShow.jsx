@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const CartJobShow = ({ job }) => {
   const { id, company_name, logo, position, salary, jobType1, jobType2 } = job;
   return (
-    <div className="lg:px-[250px] mb-3">
+    <div className="lg:px-[250px] px-6 mb-3 ">
       <div className="p-9 border-1 bg-red-300 md:w-[550px] rounded-lg">
         <img className="mt-5" src={logo} alt="" srcset="" />
         <p className="font-medium mt-5">{position}</p>

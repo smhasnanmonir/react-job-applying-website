@@ -8,7 +8,7 @@ const HomeContent = () => {
           One Step Closer
           <br /> To Your Dream Job
         </h1>
-        <p className="mb-5">
+        <p className="mb-5 md:text-xl">
           Explore thousands of job opportunities with all the information you
           need.
           <br /> Its your future. Come find it. Manage all your job application

@@ -8,15 +8,15 @@ const Jobs = () => {
 
   console.log(initialCart);
   return (
-    <div className="flex min-h-screen justify-start">
-      <div className="flex flex-col max-w-3xl p-6 space-y-3">
-        <h2>{initialCart.length ? "Added Jobs" : "No job is added"}</h2>
+    <div className="md:max-w-6xl">
+      <h2 className="text-xl my-3 text-center">
+        {initialCart.length ? "Added Jobs" : "No job is added"}
+      </h2>
 
-        <div className="grid md:grid-cols-2 grid-cols-1">
-          {initialCart.map((job) => (
-            <CartJobShow key={job.id} job={job}></CartJobShow>
-          ))}
-        </div>
+      <div className="grid md:grid-cols-2 grid-cols-1 gap-3">
+        {initialCart.map((job) => (
+          <CartJobShow key={job.id} job={job}></CartJobShow>
+        ))}
       </div>
     </div>
   );

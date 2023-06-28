@@ -21,7 +21,7 @@ const JobShowMore = () => {
     benefits,
   } = jobApply;
   return (
-    <div className="mt-9  flex md:gap-7 md:px-[250px] mb-[35px] md:flex-row flex-col-reverse px-[25px] items-center justify-center">
+    <div className="mt-9 flex md:gap-7 md:px-[250px] mb-[35px] md:flex-row flex-col-reverse px-[25px] items-center justify-center">
       <div className="md:w-[650px] mt-[25px] ">
         <div className="md:p-9 bg-orange-200 rounded-lg px-[25px] p-2">
           <p>
