@@ -2,9 +2,9 @@ import React from "react";
 
 const HomeContent = () => {
   return (
-    <div className="px-[45px]">
+    <div className="md:px-[45px] px-[25px] pt-[15px]">
       <div className="">
-        <h1 className="text-[40px] font-extrabold mb-2">
+        <h1 className="md:text-[40px] text-[22px] font-extrabold mb-2">
           One Step Closer
           <br /> To Your Dream Job
         </h1>
@@ -14,7 +14,7 @@ const HomeContent = () => {
           <br /> Its your future. Come find it. Manage all your job application
           from start to finish.
         </p>
-        <button className="btn-primary">Get Started</button>
+        {/* <button className="btn-primary">Get Started</button> */}
       </div>
     </div>
   );

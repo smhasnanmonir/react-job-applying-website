@@ -11,11 +11,12 @@ const Jobs = () => {
     <div className="flex min-h-screen justify-start">
       <div className="flex flex-col max-w-3xl p-6 space-y-3">
         <h2>{initialCart.length ? "Added Jobs" : "No job is added"}</h2>
-        <ul>
+
+        <div className="grid md:grid-cols-2 grid-cols-1">
           {initialCart.map((job) => (
             <CartJobShow key={job.id} job={job}></CartJobShow>
           ))}
-        </ul>
+        </div>
       </div>
     </div>
   );

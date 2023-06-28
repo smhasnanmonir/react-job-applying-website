@@ -2,13 +2,15 @@ import React, { useEffect } from "react";
 
 const JobCat = () => {
   return (
-    <div className="grid place-items-center mt-10 mb-[45px] text-left">
-      <h1 className="text-2xl font-extrabold mb-4">Job Category List</h1>
-      <p>
-        Explore thousands of job opportunities with all the information you
-        need. Its your future
-      </p>
-      <div className="grid grid-cols-4 gap-8 mt-6">
+    <div className="grid place-items-center mt-10 md:mb-[45px] grid-cols-1">
+      <div className="px-[25px] mb-[35px] text-center">
+        <h1 className="text-2xl font-extrabold mb-4">Job Category List</h1>
+        <p>
+          Explore thousands of job opportunities with all the information you
+          need. Its your future
+        </p>
+      </div>
+      <div className="grid md:grid-cols-4 grid-cols-1 md:gap-8 md:mt-6 gap-[7px]">
         <div className="p-8 bg-violet-50 rounded-md">
           <img
             className="mb-5"

@@ -9,10 +9,12 @@ const Home = () => {
   const jobDetail = useLoaderData();
   return (
     <div>
-      <div className="mt-8 px-[175px] mx-auto grid place-items-center bg-purple-100">
+      <div className="md:px-[175px] px-[25px] mx-auto grid place-items-center bg-purple-100">
         <div className="flex items-center">
           <HomeContent></HomeContent>
-          <HomeImg></HomeImg>
+          <div className="md:block hidden">
+            <HomeImg></HomeImg>
+          </div>
         </div>
       </div>
       <JobCat></JobCat>
@@ -23,7 +25,7 @@ const Home = () => {
           need. Its your future
         </p>
       </div>
-      <div className="grid grid-cols-2 px-[250px]">
+      <div className="grid md:grid-cols-2 md:px-[250px] grid-cols-1 px-[25px]">
         {jobDetail.map((job) => (
           <JobData key={jobDetail._id} job={job}></JobData>
         ))}
