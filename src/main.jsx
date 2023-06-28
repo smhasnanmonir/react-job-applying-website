@@ -26,10 +26,6 @@ const router = createBrowserRouter([
         },
       },
       {
-        path: "blog",
-        element: <Blogs></Blogs>,
-      },
-      {
         path: "job",
         element: <Jobs></Jobs>,
         loader: loadJobInfo,
@@ -43,10 +39,6 @@ const router = createBrowserRouter([
           const job = data.find((info) => info.id == params.jobID);
           return job;
         },
-      },
-      {
-        path: "statistics",
-        element: <Statistics></Statistics>,
       },
     ],
   },
